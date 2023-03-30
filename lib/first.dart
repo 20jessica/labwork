@@ -13,14 +13,11 @@ class _labworkState extends State<labwork> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
+      body: Column(children: [
         TextField(
           controller: item,
         ),
-        ElevatedButton(onPressed: () {
-
-        }, child: Text('add'))
+        ElevatedButton(onPressed: () {}, child: Text('ADD ITEM'))
       ]),
     );
   }
